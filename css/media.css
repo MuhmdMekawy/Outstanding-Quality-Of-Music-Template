@@ -1,0 +1,69 @@
+
+@media (max-width:570px){
+    .header .content .right h2{
+        font-size: 50px;
+    }
+    .music .content h2{
+        font-size: 44px;
+    }
+    .tools .content .right h2{
+        font-size: 40px;
+    }
+    .specs .row{
+        text-align: center;
+    }
+    .specs .content .row .right{
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width:990px){
+    .header .content{
+        flex-direction: column;
+    }
+    .header .content .left{
+        text-align: center;
+    }
+    .header .content img{
+        width: 250px;
+    }
+    .header .content .right{
+        padding-top: 60px;
+        text-align: center;
+    }
+    .information .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .information .content .left{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .chip .content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .chip .content .left h2{
+        font-size: 50px;
+    }
+    .tools .content .right{
+        text-align: center;
+    }
+    .music{
+        transform: translate(0, -50px);
+    }
+    .music .content{
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tools .row{
+        flex-direction: column-reverse;
+    }
+}
+
+
